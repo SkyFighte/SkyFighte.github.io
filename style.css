@@ -1,0 +1,242 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-image: #cdeeb0;
+}
+
+header {
+  background-color: #333 ;
+  color: #c7f0a3 ;
+  padding: 15px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: #333;
+  color: #faedd2;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.parallax-inner {
+  display: table-cell;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  
+}
+
+  .parallax-inner img {
+width: 300px; /* Adjust as needed */
+height: 300px; /* Adjust as needed */
+overflow: hidden;
+width: 100%;
+height: 100%;
+transition: transform 0.3s ease;
+
+}
+
+.parallax-inner:hover img{
+transform: scale(1.1); /* Adjust the scale factor for the zoom effect */}
+
+p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+ol{
+  font-family:'Sedan';
+  font-weight: 900;
+  color: rgb(176, 196, 166);
+  color: black;
+
+}
+
+ul{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(0, 213, 255);
+}
+
+.line {
+  height: 6px;
+  background-color: black;
+  width: 70px;
+  margin: 8px auto;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+.login-container {
+width: 300px;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+background-color: linear-gradient(to right top, rgb(168, 202, 175), rgb(132, 202, 132), #18c172, #006823, #006494);
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container input {
+width: 100%;
+margin-bottom: 10px;
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 3px;
+}
+
+.login-container button {
+width: 100%;
+padding: 10px;
+border: none;
+border-radius: 3px;
+background-color: #007bff;
+color: #fff;
+cursor: pointer;
+}
+/* styles.css */
+
+body {
+font-family: Arial, sans-serif;
+background-color: #b4eb9f;
+margin: 0;
+padding: 0;
+}
+
+.container {
+max-width: 800px;
+margin: 20px auto;
+padding: 20px;
+background-color: #fff;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-window {
+height: 400px;
+overflow-y: scroll;
+border: 1px solid #ccc;
+border-radius: 5px;
+padding: 10px;
+}
+
+.message {
+margin-bottom: 10px;
+padding: 5px 10px;
+background-color: #f0f0f0;
+border-radius: 5px;
+}
+
+.message.sender {
+background-color: #007bff;
+color: #fff;
+}
+
+.message.receiver {
+background-color: #28a745;
+color: #fff;
+}
+
+.message input[type="file"] {
+margin-top: 10px;
+}
+
+.message button {
+margin-left: 10px;
+padding: 5px 10px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.message button:hover {
+background-color: #0056b3;
+}
+
+.message img {
+max-width: 100%;
+border-radius: 5px;
+}
+
+.message video {
+max-width: 100%;
+border-radius: 5px;
+}
+
+input[type="text"] {
+width: calc(100% - 80px);
+padding: 10px;
+margin-top: 10px;
+margin-right: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+button[type="submit"] {
+padding: 10px 20px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button[type="submit"]:hover {
+background-color: #0056b3;
+}
+/* Add this CSS to your stylesheet */
+
+
+
+/* Styles for the massive image at the end of the page */
+#end-image {
+  display: block; /* Ensures the image is displayed as a block element */
+  max-width: 100%;
+}
+
+
+
+#qr {
+  display: block; /* Ensures the image is displayed as a block element */
+  max-width: 100%; /* Ensures the image width does not exceed the container width */
+  width: 150px; /* Sets a smaller specific width for the image */
+  height: auto; /* Maintains the aspect ratio */
+  margin: 20px auto; /* Adds some space above the image and centers it horizontally */
+}
+
+
+
+
+
+
+
